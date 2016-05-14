@@ -1,0 +1,31 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle kram-to-html",
+        "command": "kram-to-html:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kram-to-html",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "kram-to-html:toggle"
+            },
+
+            {
+              "label": "Preview HTML",
+              "command": "kram-to-html:togglePreview"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

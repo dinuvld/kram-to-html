@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "kram-to-html:toggle",
+    "ctrl-alt-p": "kram-to-html:togglePreview"
+  }
+}
